@@ -16,5 +16,6 @@
 		<TextBlock x:Name="LabelWachtTijdMelding" HorizontalAlignment="Left" Margin="60,545,0,0" Text="0 minuten" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="Red"/>
 		<Button x:Name="KnopUpdateInformatie" Content="Update informatie" Margin="65,762,0,0" VerticalAlignment="Top" Height="60" Width="454" Click="KnopUpdateInformatie_Click"/>
         <Image x:Name="ImageDisplay" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1293,444,0,0" Width="200" Height="200" Source="ms-appx:///Assets/Images/Hero02.png"/>
+        <TextBlock x:Name="LabelKar3" HorizontalAlignment="Left" Margin="60,319,0,0" Text="Kar 3 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="Red"/>
     </Grid>
 </Page>
