@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="864" Width="1647">
 
     <Grid x:Name="MainWindow" Background="Green">
-        <TextBlock x:Name="LabelTitel" HorizontalAlignment="Left" Margin="60,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" SelectionChanged="LabelTitel_SelectionChanged" Foreground="Red"><Run Text="Debug Hero"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="LabelTitel" HorizontalAlignment="Left" Margin="60,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Foreground="Red"><Run Text="Debug Hero"/><LineBreak/><Run/></TextBlock>
         <TextBlock x:Name="LabelKar1" HorizontalAlignment="Left" Margin="65,180,0,0" Text="Kar 1 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" FocusVisualPrimaryBrush="Red" Foreground="Red"/>
 		<TextBlock x:Name="LabelKar2" HorizontalAlignment="Left" Margin="65,250,0,0" Text="Kar 2 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48" Foreground="Red"/>
 		<TextBlock x:Name="LabelWachtTijd" HorizontalAlignment="Left" Margin="60,444,0,0" Text="Wachttijd:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Foreground="Red"/>
