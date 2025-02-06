@@ -62,6 +62,10 @@ namespace BugsOfHorrorXAML
             string node2 = doc.DocumentElement.SelectSingleNode("/Status/Kar02").InnerText;
             string status2 = ConvertStatus(node2);
             this.LabelKar2.Text = $"Kar 2: {status2}";
+
+            string node3 = doc.DocumentElement.SelectSingleNode("/Status/Kar03").InnerText;
+            string status3 = ConvertStatus(node3);
+            this.LabelKar3.Text = $"Kar 3: {status3}";
         }
 
         private int BerekenWachtTijd()
@@ -184,6 +188,12 @@ namespace BugsOfHorrorXAML
             {
                 return "Komt binnen";
             }
+
+            if (StatusNr == "5")
+            {
+                return "In Onderhoud";
+            }
+
 
             return "";
         }
