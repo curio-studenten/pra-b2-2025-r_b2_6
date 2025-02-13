@@ -8,14 +8,23 @@
     * Primaire kleur: #27AE60
     * Secundaire kleur: #2F80ED
 */
+*{
+  margin: 0;
+  padding: 0;	
+}
+
+
 
 body, html{
-  margin: 0;
+  margin: 0 ;
   padding: 0;
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #FCFCFC;
 }
+
+
+
 
 .wrapper{
   max-width: 960px;
@@ -163,9 +172,12 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
+@media screen and (max-width: 480px){
+  .sidy-by-side{
+    height: 128px;
+  }
+  
 }
-
 .description{
   flex: 1;
 }
@@ -218,9 +230,9 @@ display: flex;
     margin: 0 auto;
     width: 256px;
   }
+ 
 
-
-  .sidy-by-side{
+  .side-by-side{
     flex-direction: column;
     align-items: center;
   }
@@ -237,7 +249,6 @@ display: flex;
         url('/fonts/heartbeat.svg') format('svg'),
         url('/fonts/heartbeat.ttf') format('ttf');
 }
-
 /*
   Animations for fading in logo on page load
 */
